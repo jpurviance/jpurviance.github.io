@@ -80,8 +80,33 @@ h1 {
   text-align: center;
 }
 
+
+#Links{
+    width: 100%;
+    text-align: center;
+}
 #GitHubLink{
-  text-align: center;
+display:inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#LinkedInLink{
+  display:inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#ResumeLink{
+  display:inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+}
+
+#name{
+    margin-top: 5px;
+    margin-bottom: 2px;
 }
 
 

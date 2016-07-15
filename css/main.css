@@ -1,0 +1,439 @@
+body {
+  background-image: url("/img/banner.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+hr {
+  /*  color:;*/
+  margin-top: 0;
+  margin-bottom: 6vh;
+  padding: none;
+  width: 10%;
+  height: 1px;
+  background: #586674;
+}
+
+#name_hr {
+  visibility: hidden;
+  height: 0;
+  padding: none;
+  margin: 0;
+}
+
+.no-margin-no-padding {
+  padding: 0;
+  margin: 0;
+}
+
+#banner {
+  height: 80vh;
+  padding: 0;
+}
+
+#banner img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 7vh 3vw 15vh 3vw;
+}
+
+#about {
+  margin-top: 40vh;
+  padding: 2vh 10vw 3vh 5vw;
+  background: white;
+}
+
+.h-body {
+  padding-bottom: 3vh;
+}
+
+#intersts {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  background: white;
+}
+
+#projects {
+  text-align: center;
+  background: white;
+}
+
+#projects h1 {
+  /*  padding-bottom: 2vh;*/
+  padding-top: 5vh;
+  margin-top: 5vh;
+  /*  margin-bottom: 5vh;*/
+}
+
+#VT-Hacks {
+  /*  text-align: left;*/
+  padding-left: 0;
+  padding-right: 0;
+  background: white;
+}
+
+#VT-Hacks .col-md-12 {
+  text-align: center;
+  background: white;
+}
+
+#VT-Hacks .col-md-6 {
+  background: #586674;
+}
+
+
+/*/////////////////////////////////////////*/
+
+
+/*Thie height for these is set in js*/
+
+#VT-Hacks .col-md-4 {
+  background: white;
+  display: table;
+  overflow: hidden;
+  text-align: center;
+}
+
+#VT-Hacks p {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.center {
+  border-left-style: solid;
+  border-left-width: thin;
+  border-left-color: #586674;
+  border-right-style: solid;
+  border-right-width: thin;
+  border-right-color: #586674;
+}
+
+
+/*/////////////////////////////////////////*/
+
+#VT-Hacks img {
+  max-width: 100%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border-radius: 8px;
+}
+
+#CafeConnect {
+  background: white;
+  padding: 0;
+  padding-top: 10vh;
+  text-align: center;
+}
+
+#not {
+  margin-bottom: 5vh;
+}
+
+#CafeConnect .col-md-4 {
+  background: white;
+  display: table;
+  overflow: hidden;
+  text-align: center;
+}
+
+#CafeConnect p {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  text-align: center;
+}
+
+#CafeConnect img {
+  max-width: 100%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border-radius: 8px;
+}
+
+#CafeConnect #cafe-photos,
+#CafeConnect #cafe-photos .col-md-4,
+#CafeConnect #cafe-photos .col-md-8 {
+  background: #586674;
+}
+
+#app {
+  display: block;
+  margin: auto;
+}
+
+#sim,
+#school {
+  padding-top: 15vh;
+}
+
+#sim,
+#website {
+  background: white;
+  padding-bottom: 15vh;
+}
+
+#school {
+  background: white;
+  padding-bottom: 10vh;
+}
+
+#sim .col-md-4,
+#website .col-md-4,
+#school .col-md-4 {
+  text-align: center;
+}
+
+#sim .col-md-8 h2,
+#website .col-md-8 h2,
+#school .col-md-8 h2 {
+  text-align: center;
+}
+
+#sim .col-md-8,
+#website .col-md-8,
+#school .col-md-8 {
+  border-bottom-color: #586674;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+
+#sim i,
+#website i,
+#school i {
+  font-size: 20vh;
+  color: #586674;
+}
+
+#website,
+#school,
+#reading {
+  background: white;
+}
+
+#view {
+  padding: 0;
+  background-image: linear-gradient(to top left, rgba(0, 47, 75, .2), rgba(0, 47, 75, .2)), url("/img/torg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#school h1 {
+  text-align: center;
+}
+
+#school .col-md-3 {
+  text-align: center;
+}
+
+.top_class {
+  border-bottom-color: #586674;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+
+
+/* the height is handles in js*/
+
+#school .col-md-3 {
+  background: white;
+  display: table;
+  overflow: hidden;
+  text-align: center;
+}
+
+#school p {
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  font-size: 16px;
+}
+
+
+/*            */
+
+#reading .col-md-6 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#reading h1,
+#reading h3 {
+  text-align: center;
+}
+
+#reading h3 {
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: #586674;
+  padding-bottom: 1.5vh;
+}
+
+#completed li,
+#in-progress li {
+  padding-left: 0;
+  padding-top: 0;
+}
+
+.list-group {
+  padding-left: 2vw;
+  ;
+}
+
+.list-group-item {
+  border: unset;
+  font-size: 16px;
+}
+
+#footer {
+  background: #586674;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  color: white;
+}
+
+#footer i {
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+}
+
+#footer a {
+  color: white;
+}
+
+
+/* pull-right on all except xs devices */
+
+@media (min-width: 992px) {
+  .pull-right-sm {
+    float: right;
+  }
+}
+
+div#in-progress li:before {
+  font-family: 'FontAwesome';
+  content: '\f10c';
+  margin: 0 5px 0 -15px;
+  font-size: 18px;
+}
+
+div#completed li:before {
+  font-family: 'FontAwesome';
+  content: '\f00c';
+  margin: 0 5px 0 -15px;
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width:1000px) {
+  hr {
+    width: 30%;
+  }
+  #name_hr {
+    height: 1px;
+    visibility: visible;
+    margin-top: 0;
+    margin-bottom: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    background: #586674;
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  body {
+    background-image: none;
+    /*TODO come back to this*/
+  }
+  #banner {
+    height: unset;
+  }
+  #banner img {
+    padding: 5vh 20vw 5vh 20vw;
+  }
+  #about {
+    margin-top: unset;
+    height: unset;
+    padding: unset;
+  }
+  #about p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .center {
+    border: none;
+  }
+  #intersts p {
+    padding-bottom: 30px;
+  }
+  #projects h1 {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  #VT-Hacks img {
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+  #VT-Hacks p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #VT-Hacks .col-md-4,
+  #VT-Hacks p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  #cafe-photos .col-md-4,
+  #cafe-photos .col-md-8 {
+    width: 100%;
+  }
+  #CafeConnect img {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #sim i,
+  #website i,
+  #school i {
+    font-size: 15vh;
+    margin-bottom: 3vh;
+    color: #586674;
+  }
+  #sim .col-md-8,
+  #website .col-md-8,
+  #school .col-md-8 {
+    border-bottom: none;
+  }
+  #sim .col-md-8,
+  #website .col-md-8 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #sim {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+  #website {
+    padding-bottom: 10vh;
+  }
+}

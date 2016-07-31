@@ -1,5 +1,20 @@
  var max = 0;
  var max_2 = 0;
+
+ function drawCafe() {
+   $("#cafe-image").append('<img src="/img/cafe.jpg" id="app" alt="CafeConnect"/>');
+   reDrawCafe();
+ }
+
+ function reDrawCafe() {
+   if ($(window).width() > 1000) {
+     $("#app").height($("#falling").height());
+
+     $(window).resize(function () {
+       $("#app").height($("#falling").height());
+     });
+   }
+ }
  $(document).ready(function () {
    if ($(window).width() > 1000) {
 
@@ -58,12 +73,8 @@
        }
      });
    }
-
-   if ($(window).width() > 1000) {
-     $("#app").height($("#falling").height());
-
-     $(window).resize(function () {
-       $("#app").height($("#falling").height());
-     });
-   }
+   drawCafe();
+   $(window).resize(function () {
+     reDrawCafe();
+   });
  });

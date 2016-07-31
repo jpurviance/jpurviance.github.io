@@ -15,7 +15,7 @@
      });
    }
  }
- $(document).ready(function () {
+ $(window).load(function () {
    if ($(window).width() > 1000) {
 
      $("#VT-Hacks").children(".col-lg-4").each(function () {

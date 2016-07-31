@@ -77,12 +77,12 @@ hr {
   background: white;
 }
 
-#VT-Hacks .col-md-12 {
+#VT-Hacks .col-lg-12 {
   text-align: center;
   background: white;
 }
 
-#VT-Hacks .col-md-6 {
+#VT-Hacks .col-lg-6 {
   background: #586674;
 }
 
@@ -92,7 +92,7 @@ hr {
 
 /*Thie height for these is set in js*/
 
-#VT-Hacks .col-md-4 {
+#VT-Hacks .col-lg-4 {
   background: white;
   display: table;
   overflow: hidden;
@@ -169,7 +169,7 @@ hr {
 }
 
 #app {
-  display: block;
+  /*  display: block;*/
   margin: auto;
 }
 
@@ -189,21 +189,21 @@ hr {
   padding-bottom: 10vh;
 }
 
-#sim .col-md-4,
-#website .col-md-4,
-#school .col-md-4 {
+#sim .col-lg-4,
+#website .col-lg-4,
+#school .col-lg-4 {
   text-align: center;
 }
 
-#sim .col-md-8 h2,
-#website .col-md-8 h2,
-#school .col-md-8 h2 {
+#sim .col-lg-8 h2,
+#website .col-lg-8 h2,
+#school .col-lg-8 h2 {
   text-align: center;
 }
 
-#sim .col-md-8,
-#website .col-md-8,
-#school .col-md-8 {
+#sim .col-lg-8,
+#website .col-lg-8,
+#school .col-lg-8 {
   border-bottom-color: #586674;
   border-bottom-style: solid;
   border-bottom-width: thin;
@@ -234,7 +234,7 @@ hr {
   text-align: center;
 }
 
-#school .col-md-3 {
+#school .col-lg-3 {
   text-align: center;
 }
 
@@ -247,7 +247,7 @@ hr {
 
 /* the height is handles in js*/
 
-#school .col-md-3 {
+#school .col-lg-3 {
   background: white;
   display: table;
   overflow: hidden;
@@ -265,7 +265,7 @@ hr {
 
 /*            */
 
-#reading .col-md-6 {
+#reading .col-lg-6 {
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -343,7 +343,7 @@ a:hover {
   text-decoration: none;
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:992px) {
   hr {
     width: 30%;
   }
@@ -399,13 +399,13 @@ a:hover {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  #VT-Hacks .col-md-4,
+  #VT-Hacks .col-lg-4,
   #VT-Hacks p {
     padding-left: 25px;
     padding-right: 25px;
   }
-  #cafe-photos .col-md-4,
-  #cafe-photos .col-md-8 {
+  #cafe-photos .col-lg-4,
+  #cafe-photos .col-lg-8 {
     width: 100%;
   }
   #CafeConnect img {
@@ -419,13 +419,13 @@ a:hover {
     margin-bottom: 3vh;
     color: #586674;
   }
-  #sim .col-md-8,
-  #website .col-md-8,
-  #school .col-md-8 {
+  #sim .col-lg-8,
+  #website .col-lg-8,
+  #school .col-lg-8 {
     border-bottom: none;
   }
-  #sim .col-md-8,
-  #website .col-md-8 {
+  #sim .col-lg-8,
+  #website .col-lg-8 {
     padding-left: 50px;
     padding-right: 50px;
   }

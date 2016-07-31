@@ -377,9 +377,10 @@ a:hover {
     height: unset;
     padding: unset;
   }
-  #about p {
-    padding-left: 50px;
-    padding-right: 50px;
+  #about p,
+  #intersts {
+    padding-left: 18px;
+    padding-right: 18px;
   }
   .center {
     border: none;
@@ -399,11 +400,13 @@ a:hover {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+  /*
   #VT-Hacks .col-lg-4,
   #VT-Hacks p {
     padding-left: 25px;
     padding-right: 25px;
   }
+*/
   #cafe-photos .col-lg-4,
   #cafe-photos .col-lg-8 {
     width: 100%;
@@ -424,16 +427,22 @@ a:hover {
   #school .col-lg-8 {
     border-bottom: none;
   }
+  /*
   #sim .col-lg-8,
   #website .col-lg-8 {
     padding-left: 50px;
     padding-right: 50px;
   }
+*/
   #sim {
     padding-top: 10vh;
     padding-bottom: 10vh;
   }
   #website {
     padding-bottom: 10vh;
+  }
+  #reading .col-lg-6 {
+    padding-left: 10px;
+    padding-right: 0px;
   }
 }

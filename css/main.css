@@ -319,7 +319,7 @@ hr {
 
 /* pull-right on all except xs devices */
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .pull-right-sm {
     float: right;
   }
@@ -359,6 +359,23 @@ a:hover {
   }
   #about {
     margin: unset;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  #name_hr {
+    height: 1px;
+    visibility: visible;
+    margin-top: 0;
+    margin-bottom: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    background: #586674;
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
   }
 }
 

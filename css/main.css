@@ -283,8 +283,8 @@ hr {
   padding-bottom: 1.5vh;
 }
 
-#completed li,
-#in-progress li {
+.completed li,
+.in-progress li {
   padding-left: 0;
   padding-top: 0;
 }
@@ -326,14 +326,14 @@ hr {
   }
 }
 
-div#in-progress li:before {
+div.in-progress li:before {
   font-family: 'FontAwesome';
   content: '\f10c';
   margin: 0 5px 0 -15px;
   font-size: 18px;
 }
 
-div#completed li:before {
+div.completed li:before {
   font-family: 'FontAwesome';
   content: '\f00c';
   margin: 0 5px 0 -15px;

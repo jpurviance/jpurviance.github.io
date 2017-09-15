@@ -128,13 +128,54 @@ hr {
   border-radius: 8px;
 }
 
-#CafeConnect {
+#StackCents {
   background: white;
   padding: 0;
   text-align: center;
 }
 
-#not {
+#StackCents .col-md-4 {
+  background: white;
+  display: table;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#StackCents .col-lg-12 {
+  text-align: center;
+  background: white;
+}
+
+#StackCents .col-lg-6 {
+  background: #586674;
+}
+
+#StackCents img {
+  max-width: 100%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border-radius: 8px;
+}
+
+#StackCents p {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  text-align: center;
+}
+
+#CafeConnect {
+  background: white;
+  padding: 0;
+  padding-top: 10vh;
+  text-align: center;
+}
+
+.not {
   margin-bottom: 5vh;
 }
 

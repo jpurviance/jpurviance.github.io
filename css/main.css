@@ -72,6 +72,7 @@ hr {
 
 #VT-Hacks {
   /*  text-align: left;*/
+  padding-top: 10vh;
   padding-left: 0;
   padding-right: 0;
   background: white;
@@ -130,7 +131,6 @@ hr {
 #CafeConnect {
   background: white;
   padding: 0;
-  padding-top: 10vh;
   text-align: center;
 }
 

@@ -53,9 +53,13 @@ p {
   padding-bottom: 3vh;
 }
 
-#intersts {
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+#publications ul li {
+  list-style-type: none;
+}
+
+#intersts, #publications {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
   text-align: center;
   padding-right: 50px;
   padding-left: 50px;
@@ -69,8 +73,8 @@ p {
 
 #projects h1 {
   /*  padding-bottom: 2vh;*/
-  padding-top: 5vh;
-  margin-top: 5vh;
+  padding-top: 3vh;
+  margin-top: 3vh;
   /*  margin-bottom: 5vh;*/
 }
 
@@ -460,14 +464,14 @@ a:hover {
     padding: unset;
   }
   #about p,
-  #intersts {
+  #intersts, #publications {
     padding-left: 18px;
     padding-right: 18px;
   }
   .center {
     border: none;
   }
-  #intersts p {
+  #intersts p, #publications p {
     padding-bottom: 30px;
   }
   #projects h1 {

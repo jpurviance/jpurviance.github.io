@@ -55,11 +55,18 @@ p {
 
 #publications ul li {
   list-style-type: none;
+  font-size: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#publications ul{
+  padding-inline-start: 0px;
 }
 
 #intersts, #publications {
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
   text-align: center;
   padding-right: 50px;
   padding-left: 50px;

@@ -49,6 +49,12 @@ p {
   background: white;
 }
 
+@media (max-height:715px) {
+    #about {
+        margin-top: 25vh;
+    }
+}
+
 .h-body {
   padding-bottom: 3vh;
 }
